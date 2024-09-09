@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgb(22, 33, 53);
+}
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    width: 1200px;
+    padding: 300px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 30px;
+    margin: 20px;
+}
+
+h1{
+    font-family: "Chakra Petch", sans-serif;
+    color: rgb(48, 245, 196);
+    text-transform: uppercase;
+}
+
+input,
+button{
+    background-color: rgb(185, 196, 224);
+    border: none;
+    font-size: 15px;
+    color: rgb(22, 33, 53);
+    padding: 5px;
+    margin: 5px;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(48, 245, 196);
+}
+
+input{
+    width: 450px;
+}
+
+button{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+::placeholder{
+    color: rgb(22, 33, 53);
+}
+
+.container{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    margin-top: 20px;
+    border-top: 1px solid rgb(48, 245, 196);
+    width: 800px;
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    color: rgb(48, 245, 196);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+li img{
+    width: 30px;
+}
+
+.linha{
+    text-decoration: line-through;
+}
